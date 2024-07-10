@@ -14,21 +14,26 @@ Steps to Download and Install Visual Studio Code on Windows 11:
 1.Download:
 Go to the Visual Studio Code website.
 Click on the "Download for Windows" button. This will download the installer for the latest version of VS Code.
+
 2.Run the Installer:
 Locate the downloaded file (usually in the Downloads folder) and double-click it to run the installer.
 Follow the setup wizard prompts.
+
 3.Setup Options:
 Accept the license agreement.
 Choose the installation location (default is usually fine).
+
 4.Select additional tasks such as:
 Create a desktop icon.
 Add "Open with Code" action to Windows Explorer file context menu.
 Add "Open with Code" action to Windows Explorer directory context menu.
 Register Code as an editor for supported file types.
 Add to PATH (important for using VS Code from the command line).
+
 5.Install:
 Click "Install" to begin the installation.
 Once the installation is complete, you can choose to launch Visual Studio Code immediately.
+
 Prerequisites:
 Windows 11 operating system.
 Administrator privileges to install software.
