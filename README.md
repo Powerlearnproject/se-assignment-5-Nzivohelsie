@@ -44,9 +44,11 @@ Administrator privileges to install software.
 Initial Configurations and Settings for an Optimal Coding Environment:
 1.Settings Sync:
 Enable Settings Sync to sync your settings, extensions, and keybindings across multiple machines. Go to Settings > Sync Settings.
+
 2.Theme and Appearance:
 Change the color theme: File > Preferences > Color Theme (or use Ctrl+K followed by Ctrl+T).
 Choose a preferred icon theme: File > Preferences > File Icon Theme.
+
 3.Extensions:
 Install essential extensions like:
 Prettier (code formatter)
@@ -54,6 +56,7 @@ ESLint (JavaScript linter)
 Live Server (development server for live reload)
 GitLens (enhances Git capabilities)
 IntelliSense for CSS, HTML, and JavaScript (improves code completion)
+
 4.Editor Settings:
 Adjust font size: File > Preferences > Settings and search for "Font Size".
 Enable auto-save: File > Auto Save.
@@ -65,10 +68,13 @@ Configure tab settings: Set tab size and enable/disable spaces for tabs.
 Main Components of the VS Code User Interface:
 1.Activity Bar:
 Located on the far left, it provides access to different views such as Explorer, Search, Source Control, Run & Debug, and Extensions.
+
 2.Side Bar:
 The vertical bar next to the Activity Bar that shows different views (e.g., file explorer, search results) depending on the selected activity.
+
 3.Editor Group:
 The main area where you edit your files. You can open multiple files in tabs, split the editor into multiple groups, and more.
+
 4.Status Bar:
 Located at the bottom of the window, it shows information about the current project, such as encoding, line endings, and the current Git branch. It also provides access to quick actions.
 
@@ -76,8 +82,11 @@ Located at the bottom of the window, it shows information about the current proj
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
 What is the Command Palette in VS Code, and How to Access it:
+
 Access: Press Ctrl+Shift+P or F1 to open the Command Palette.
+
 Purpose: Provides a quick way to execute commands. You can type the command name to search and execute it without navigating through menus.
+
 Examples of Common Tasks:
 > Open File: Quickly open a file.
 > Git: Commit: Commit changes in Git.
@@ -87,13 +96,17 @@ Examples of Common Tasks:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
 
 Role of Extensions and How to Manage Them:
+
 Role: Extensions add functionality to VS Code, such as language support, debuggers, linters, themes, and more.
+
 Finding and Installing Extensions:
 Open the Extensions view by clicking the Extensions icon in the Activity Bar or pressing Ctrl+Shift+X.
 Search for extensions by name or keyword.
 Click the "Install" button on the desired extension.
+
 Managing Extensions:
 View installed extensions, enable/disable them, or uninstall them from the Extensions view.
+
 Essential Extensions for Web Development:
 Live Server: Launch a local development server with live reload feature.
 Prettier: Code formatter.
@@ -105,8 +118,10 @@ Debugger for Chrome: Debug JavaScript in the Chrome browser.
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
 
 How to Open and Use the Integrated Terminal:
+
 Opening the Terminal:
 Use the shortcut Ctrl+`` (backtick) or go to View > Terminal`.
+
 Advantages:
 Run command-line tools and scripts directly within VS Code.
 No need to switch context between an external terminal and the editor.
@@ -116,12 +131,15 @@ Supports multiple terminal instances and profiles.
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 
 Creating, Opening, and Managing Files and Folders:
+
 Creating Files/Folders:
 Right-click in the Explorer view and select "New File" or "New Folder".
 Use the File > New File menu or press Ctrl+N.
+
 Opening Files/Folders:
 Use File > Open File or File > Open Folder.
 Drag and drop files or folders into the VS Code window.
+
 Navigating Between Files:
 Use Ctrl+P to open the Quick Open dialog and type the file name.
 Switch between open files using Ctrl+Tab.
@@ -130,12 +148,16 @@ Switch between open files using Ctrl+Tab.
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
 Customizing Settings in VS Code:
+
 Accessing Settings:
 Go to File > Preferences > Settings or press Ctrl+,.
+
 Changing Theme:
 File > Preferences > Color Theme or use the Command Palette and type > Preferences: Color Theme.
+
 Adjusting Font Size:
 Search for "Font Size" in the Settings and set the desired value.
+
 Customizing Keybindings:
 File > Preferences > Keyboard Shortcuts or use the Command Palette and type > Preferences: Open Keyboard Shortcuts.
 
@@ -143,15 +165,20 @@ File > Preferences > Keyboard Shortcuts or use the Command Palette and type > Pr
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
 Setting Up and Starting Debugging:
+
 1.Open the Debug View:
 Click on the Run & Debug icon in the Activity Bar or press Ctrl+Shift+D.
+
 2.Create a Launch Configuration:
 Click on "create a launch.json file" link or use the Command Palette and type > Debug: Open launch.json.
 Select the environment (e.g., Node.js, Python).
+
 3.Set Breakpoints:
 Click in the gutter next to the line numbers to set breakpoints.
+
 4.Start Debugging:
 Click the green play button or press F5.
+
 Key Debugging Features:
 Watch expressions, call stack, variable inspection, and stepping through code.
 
@@ -159,12 +186,15 @@ Watch expressions, call stack, variable inspection, and stepping through code.
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
 Integrating Git with VS Code for Version Control:
+
 1.Initialize a Repository:
 Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
 Click on "Initialize Repository" if you don't have a repository yet.
+
 2.Making Commits:
 Stage changes by clicking the + icon next to the file or using the Stage All Changes button.
 Enter a commit message and click the checkmark icon to commit.
+
 3.Pushing Changes to GitHub:
 Click on the ellipsis menu in the Source Control view and select Push.
 for the first push, URL using the command git remote add origin <repository URL> in the terminal.
